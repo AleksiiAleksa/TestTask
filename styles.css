@@ -1,0 +1,198 @@
+
+html,
+body 
+{
+	height: 100%;
+	font-family:arial;
+}
+#headerInfo
+{
+  width:200px;
+  display: inline-block;	
+  padding-top:36px;
+  margin-right:10px;
+  float: right;
+  color: #e7511c;
+  font: 18px cursive,sans-serif; 
+}
+.header > div
+{
+  float: left;
+  line-height: 290%;
+  border-right-color: #e7511c;
+  border-right-style: solid;
+  border-right-width: 1px; 
+  font-size: 105%;
+  width:16.6%;
+  background: black;
+  color: white; 
+  text-align: center; 
+}
+.header > div:hover
+{
+  background: #e7511c;
+}
+.header
+{
+	width:100%;
+	display:inline-block;
+	height:20%;
+	margin:-10px;
+	margin-top:2px;
+}
+#last
+{
+  border-right-color: black;
+}
+footer
+{
+	background-color:black;
+	height:50px;
+	flex: 0 0 auto;
+}
+a
+{
+	color:black;
+	padding:5px;
+}
+ul
+{
+ margin: 0;
+ padding: 0;
+ list-style: none;
+ width: 100%;
+ display: flex;
+ }
+li:not(:first-child)::before
+{
+ content: "-";
+}
+.bread
+{
+	margin-top:70px;
+	margin-left:27px;
+	font-size: 16px;
+}
+.active
+{
+	color:gray;
+}
+form
+{
+	margin-top:20px;
+	margin-left:30px;
+	padding:25px;
+	width:650px;
+	height:330px;
+	background-color:#f2f2f2;
+	position:relative;
+}
+form > div:not(:last-child)
+{
+	 float: left;
+}
+h1
+{
+	color:#e7511c;
+	margin-left:70px;
+	height:20px;
+	margin-top:-2px;
+	margin-bottom:35px;
+}
+#button
+{
+color: #386b00; 
+font-weight:bold;
+background: linear-gradient(to top,#84cc00,#b5ea3a); 
+border:none; 
+font-size:14px; 
+font-family:Open Sans, Arial; 
+margin-top:9px; 
+width:120px; 
+height:35px; 
+border-radius: 7px;
+border:1px solid white;
+box-shadow: 0.2em 0.2em 5px rgba(122,122,122,0.5); 
+}
+#left
+{
+	text-align:right;
+}
+#center
+{
+	margin-left:33px;
+	margin-top:-8px;
+}
+#right
+{
+	margin-left:33px;
+	margin-top:35px;
+}
+#bottom
+{
+	position:absolute; 
+	bottom:0; 
+	margin-bottom:35px;
+}
+.result
+{
+	color:#386b00;
+	font-weight:bold;
+	font-size:14px;
+	margin-left:30px;
+}
+.update
+{
+	width:130px;
+}
+#myRange2
+{
+	margin-top:65px;
+}
+#slider
+{
+  width: 250px;
+  height: 10px;
+  position:absolute;
+  margin-top:15px;
+  border-radius:10px;
+  background-color:#b5ea3a;
+}
+#slider > p
+{
+  display:inline-block;
+  font-size:14px;
+}
+#slider2 > p
+{
+  display:inline-block;
+  font-size:14px;
+}
+#rightFloat
+{
+	float:right;
+}
+#slider2
+{
+  width: 250px;
+  height: 10px;
+  position:absolute;
+  margin-top:125px;
+  border-radius:10px;
+   background-color:#b5ea3a;
+}
+#content
+{
+  display: table-row;
+  height: 100%;
+}
+#main 
+{
+  display: table;
+  width:100%;
+  height: 100%;
+}
+footer
+{
+	margin:-10px;
+}
